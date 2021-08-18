@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './assets/styles/normalize.min.css';
+import './assets/styles/index.scss';
 import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+// import Demo from './react-ref';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Demo /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
